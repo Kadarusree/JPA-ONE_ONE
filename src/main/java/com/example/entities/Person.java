@@ -26,7 +26,7 @@ public class Person {
 	
 	private String name;
 	
-	
+	//Comment
 	
 	@OneToOne(mappedBy = "person", cascade = CascadeType.ALL)
 	private Passport passport;
